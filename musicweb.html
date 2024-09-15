@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+        .musicbgcontainer1 {
+
+            background-size: cover;
+            background-color: #03174c;
+            width: 600px;
+
+        }
+
+        .musicbgcontainer2 {
+            background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-stars-bg.png");
+            height: 1000px;
+
+        }
+
+        .musictext {
+            text-align: center;
+
+            padding-top: 300px;
+        }
+
+        .musichead1 {
+            color: white;
+            font-family: Bree Serif;
+            font-size: 40px;
+        }
+
+        .musicpara1 {
+            color: white;
+            font-family: Bree Serif;
+            padding-right: 80px;
+            padding-left: 80px;
+        }
+
+        .islandbgcontainer {
+            background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-bg.png");
+            background-size: cover;
+            height: 300px;
+            width: 500px;
+            margin: 30px;
+            margin-left: 50px;
+        }
+
+        .musicpara2 {
+            color: white;
+            font-family: Bree Serif;
+            padding-right: 70px;
+            padding-left: 70px;
+            padding-top: 0px;
+        }
+
+        .musictext1 {
+            text-align: center;
+            padding: 100px;
+            color: #ffe7bf;
+            font-family: Bree Serif;
+        }
+
+        .tagore {
+            text-align: center;
+        }
+
+        .get1 {
+            background-color: #8e97fd;
+            border-radius: 15px;
+            color: white;
+            padding-right: 15px;
+            padding-left: 15px;
+
+        }
+
+        .islandcontainer {
+            background-color: #03174c;
+            background-size: cover;
+            height: 800px;
+            width: 600px;
+        }
+
+        .image {
+            height: 350px;
+            width: 600px;
+        }
+
+        .islandtext {
+            padding: 20px;
+            font-family: Bree Serif;
+        }
+
+        .islandhead {
+            color: white;
+        }
+
+        .islandpara1 {
+            color: #98a1bd;
+        }
+
+        .islandhead1 {
+            font-size: 25px;
+            color: white;
+        }
+
+        .image2 {
+            height: 130px;
+            width: 200px;
+            padding: 0px;
+        }
+
+        .image3 {
+            height: 130px;
+            width: 200px;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="sectionmusicpage">
+        <div class="musicbgcontainer1 musicbgcontainer2">
+            <div class="musictext">
+                <h1 class="musichead1">Sleep Music</h1>
+                <p class="musicpara1">soothing bedtime music to help you fall into a deep and natural sleep</p>
+            </div>
+            <div class="islandbgcontainer">
+                <h1 class="musictext1">Night Island</h1>
+            </div>
+            <p class="musicpara2">Non-stop 8-hour mixes of our most popular sleep audio</p>
+            <div class="tagore">
+                <button class="get1 " onclick="display('sectionnightisland')">Get Started</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionnightisland">
+        <div class="islandcontainer">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/clouds-img.png" class="image" />
+            <div class="islandtext">
+                <div class=" d-flex flex-column justify-content-center">
+                    <h1 class="islandhead">Night Island</h1>
+                </div>
+                <p class="islandpara1">Ease the mind into a restful nights sleep with these deep, ambelent tones.</p>
+                <p class="islandpara1">45 MIN SLEEP MUSIC</p>
+                <h1 class="islandhead1">Related</h1>
+                <div class="d-flex flex-row">
+                    <div>
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-clouds-img.png"
+                            class="image2" />
+                        <h1 class="islandhead1">Moon Clouds</h1>
+                        <p class="islandpara1">55 MIN SLEEP MUSIC</p>
+                    </div>
+                    <div>
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sweet-sleep-img.png"
+                            class="image3" />
+                        <h1 class="islandhead1">Sweet sleep</h1>
+                        <p class="islandpara1">60 MIN SLEEP MUSIC</p>
+                    </div>
+                </div>
+                <button class="get1" onclick="display('sectionmusicpage')">Back</button>
+            </div>
+
+
+
+        </div>
+    </div>
+    <script type="text/javascript"
+        src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+</body>
+
+</html>
